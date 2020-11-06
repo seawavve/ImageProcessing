@@ -1,3 +1,5 @@
+//히스토그램 정규화
+
 #include <stdio.h>
 #include <windows.h>
 
