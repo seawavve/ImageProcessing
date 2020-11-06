@@ -14,9 +14,10 @@ int main() {
 	unsigned char *OutImg = NULL;
 
 
+	//수직에지
 	float mask[N][M] = { {1.0, 0.0, -1.0},
-						  {1.0, 0.0, -1.0},
-						  {1.0, 0.0, -1.0} };
+			{1.0, 0.0, -1.0},
+			{1.0, 0.0, -1.0} };
 
 	InImg = (unsigned char*)malloc(WIDTH*HEIGHT);
 	OutImg = (unsigned char*)malloc(WIDTH*HEIGHT);
